@@ -1,0 +1,5 @@
+Function GetAvailable () return Boolean
+  if not AFC.CanExecuteAFeatureFromName(WYNCB_4101) 
+    return false
+  endIf
+endFunc
